@@ -17,7 +17,7 @@
 
     // listens for click on control buttons
     document.getElementById('selesai').addEventListener('click', selesai)
-    document.getElementById('Acak').addEventListener('click', acak)
+    document.getElementById('acak').addEventListener('click', acak)
 
 
     //creates solved puzzle
