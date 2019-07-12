@@ -5,15 +5,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Landing Page</title>
+    <title>Harun</title>
+    <style>
+        body {
+            background-color: black
+        }
+
+        h1 {
+            color: white;
+            /* text-align: center; */
+            font-size: 60px;
+        }
+
+        P {
+            color: aliceblue;
+        }
+
+        form {
+            color: aliceblue;
+            /* text-align: center;  */
+        }
+    </style>
 </head>
 
 <body>
     <h1>Harun</h1>
     <p>I lived in Depok.</p>
     <p>I read article.</p>
-    <p>i watch a lot of movies.</p>
-    <p>I have a beautiful.</p>
+    <p>I watch a lot of movies.</p>
+    <p>I have a beautiful.
+        <a href="image.html">wife & son</a>
+    </p>
     <p>I try to write
         <a href="https://github.com/harunza1n" target="blank">code.</a>
     </p>
@@ -21,8 +43,10 @@
         <a href="https://www.homecredit.co.id/" target="blank">Home Credit.</a>
     </p>
     <p>I am now just a skinny old man from any reasonable perspective.</p>
-    <p><a href="puzzle.html">games</a></p>
-    <img src="Wife&Son.jpg">
+    <p>I made a simple
+        <a href="puzzle.html">games</a></p>
+
+    <!-- <img src="Wife&Son.jpg"> -->
 
     <!-- <P>
         <form method="POST" action="https://formspree.io/harun_za1n@yahoo.com">
@@ -34,19 +58,19 @@
         </form>
     </P> -->
 
+    <!-- <form name="contact" method="POST" data-netlify="true">
+        <label>Your Name    : <input type="text" name="name" /></label><br>
+        <label>Your Email   : <input type="email" name="email" /></label><br>
+        <label>Message : <textarea name="message"></textarea></label><br>
+        <button type="submit"> Send</button>
+    </form> -->
+
     <form name="contact" method="POST" data-netlify="true">
-        <p>
-            <label>Your Name: <input type="text" name="name" /></label>
-        </p>
-        <p>
-            <label>Your Email: <input type="email" name="email" /></label>
-        </p>
-                <p>
-            <label>Message: <textarea name="message"></textarea></label>
-        </p>
-        <p>
-            <button type="submit">Send</button>
-        </p>
+        <p><label>Your Name : <input type="text" name="name" /></label><br></p>
+
+        <p><label>Your Email : <input type="email" name="email" /></label><br></p>
+        <p><label>Message : <textarea name="message"></textarea></label><br></p>
+        <p><button type="submit"> Send</button></p>
     </form>
 </body>
 
